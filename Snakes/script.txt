@@ -1,0 +1,1 @@
+outputValue = inputValue**3

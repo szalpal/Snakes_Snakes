@@ -1,0 +1,42 @@
+﻿Build started 2014-08-23 23:47:59.
+     1>Project "C:\Users\Michal\Desktop\Snakes, snakes\Snakes\Snakes.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing snakes.h...
+         Uic'ing snakes.ui...
+         Moc'ing qcustomplot.h...
+         Rcc'ing snakes.qrc...
+     1>RCC : warning : No resources in 'C:\Users\Michal\Desktop\Snakes, snakes\Snakes\snakes.qrc'.
+         
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_qcustomplot.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_qcustomplot.cpp, GeneratedFiles\Release\moc_qcustomplot.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_snakes.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_snakes.cpp, GeneratedFiles\Release\moc_snakes.cpp.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtCore /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtGui /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtWidgets /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtPrintSupport /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_PRINTSUPPORT_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_qcustomplot.cpp GeneratedFiles\Debug\moc_snakes.cpp main.cpp qcustomplot.cpp ScriptException.cpp snakes.cpp
+         moc_qcustomplot.cpp
+         moc_snakes.cpp
+     1>c:\python27-32\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+         main.cpp
+     1>c:\python27-32\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+         qcustomplot.cpp
+         ScriptException.cpp
+         snakes.cpp
+     1>c:\python27-32\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtCore /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtGui /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtWidgets /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtPrintSupport /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_PRINTSUPPORT_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_snakes.cpp
+         qrc_snakes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michal\Desktop\Snakes, snakes\Win32\Debug\\Snakes.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.3.1_x86\5.3\msvc2013\lib /LIBPATH:C:\Qt\Qt5.3.1_x86\5.3\msvc2013\bin qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5PrintSupportd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Michal\Desktop\Snakes, snakes\Win32\Debug\Snakes.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michal\Desktop\Snakes, snakes\Win32\Debug\Snakes.lib" /MACHINE:X86 /SAFESEH Debug\moc_qcustomplot.obj
+         Debug\moc_snakes.obj
+         Debug\qrc_snakes.obj
+         Debug\main.obj
+         Debug\qcustomplot.obj
+         Debug\ScriptException.obj
+         Debug\snakes.obj
+         Snakes.vcxproj -> C:\Users\Michal\Desktop\Snakes, snakes\Win32\Debug\Snakes.exe
+     1>Done Building Project "C:\Users\Michal\Desktop\Snakes, snakes\Snakes\Snakes.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:25.97

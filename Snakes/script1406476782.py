@@ -1,0 +1,1 @@
+result=inputVar**3

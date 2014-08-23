@@ -1,0 +1,33 @@
+﻿Build started 2014-07-05 12:12:34.
+     1>Project "C:\Users\Michal\documents\visual studio 2013\Projects\Snakes, snakes\Snakes\Snakes.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing snakes.h...
+         Uic'ing snakes.ui...
+         Moc'ing qcustomplot.h...
+         Rcc'ing snakes.qrc...
+     1>RCC : warning : No resources in 'C:\Users\Michal\documents\visual studio 2013\Projects\Snakes, snakes\Snakes\snakes.qrc'.
+         
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_qcustomplot.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_qcustomplot.cpp, GeneratedFiles\Release\moc_qcustomplot.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_snakes.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_snakes.cpp, GeneratedFiles\Release\moc_snakes.cpp.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtCore /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtGui /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtWidgets /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtPrintSupport /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_PRINTSUPPORT_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_snakes.cpp
+         qrc_snakes.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtCore /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtGui /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtWidgets /IC:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtPrintSupport /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_PRINTSUPPORT_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_qcustomplot.cpp GeneratedFiles\Release\moc_snakes.cpp main.cpp qcustomplot.cpp ScriptManager.cpp snakes.cpp
+         moc_qcustomplot.cpp
+     1>C:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtGui/qopengl.h(82): fatal error C1083: Cannot open include file: 'GLES2/gl2.h': No such file or directory
+         moc_snakes.cpp
+     1>C:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtGui/qopengl.h(82): fatal error C1083: Cannot open include file: 'GLES2/gl2.h': No such file or directory
+         main.cpp
+     1>C:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtGui/qopengl.h(82): fatal error C1083: Cannot open include file: 'GLES2/gl2.h': No such file or directory
+         qcustomplot.cpp
+     1>C:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtGui/qopengl.h(82): fatal error C1083: Cannot open include file: 'GLES2/gl2.h': No such file or directory
+         ScriptManager.cpp
+     1>c:\users\michal\documents\visual studio 2013\projects\snakes, snakes\snakes\ScriptManager.h(4): fatal error C1083: Cannot open include file: 'boost\python.hpp': No such file or directory
+         snakes.cpp
+     1>C:\Qt\Qt5.3.1_x86\5.3\msvc2013\include\QtGui/qopengl.h(82): fatal error C1083: Cannot open include file: 'GLES2/gl2.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\Michal\documents\visual studio 2013\Projects\Snakes, snakes\Snakes\Snakes.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:38.69
